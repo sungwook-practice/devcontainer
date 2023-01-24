@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "app",
+  "shutdownAction": "none",
+  "extensions": ["ms-python.python"],
+  "workspaceFolder": "/app",
+	"postCreateCommand": "pip3 install -r requirements.txt"
+}
